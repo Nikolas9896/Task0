@@ -56,7 +56,7 @@ int main ()
                     printf( "Результат а << 5 : %o oct\n", c );
                     printf( "Результат а << 5 : %d dec \n", c );
                     printf( "Результат а << 5 : %X hex\n\n", c );
- //Перевіряв вивід через ostream(USING STD::COUT) вивід здійснюється аналогічно...:
+ //Перевіряв вивід через ostream(USING STD::COUT) вивід здійснюється аналогічно....:
                 cout << "Total on oct а << n: " << std::oct << c << endl;
                 cout << "Total on dec а << n: " << std::dec << c << endl;
                 cout << "Total on hex а << n: " << std::hex << c << endl;
